@@ -1,0 +1,14 @@
+import java.util.*;
+public class Main{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        char al=sc.next().charAt(0);
+        if((al>='a'&&al<='z')||(al>='A'&&al<='Z')){
+            System.out.println("alphebts");
+        
+        }
+        else{
+            System.out.println("Not alphebets");        }
+        
+    }
+}
